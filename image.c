@@ -81,7 +81,7 @@ void* convolute(void* data){
     for (row=first_row;row < last_row;row++){
         for (pix=0;pix<srcImage->width;pix++){
             for (bit=0;bit<srcImage->bpp;bit++){
-                destImage->data[Index(pix,row,srcImage->width,bit,srcImage->bpp)]=getPixelValue(srcImage,pix,row,bit,algorithm);
+                destImage->data[Index(pix,row,srcImage->width,bit,srcImage->bpp)]=getPixelValue(srcImage,pix,row,bit,*algorithm);
             }
         }
     }
@@ -144,7 +144,7 @@ int main(int argc,char** argv){
         thread_data[i].thread_rank = i;
         thread_data[i].srcImage = &srcImage;
         thread_data[i].destImage = &destImage;
-        thread_data[i].algorithm = algorithms[type];
+        thread_data[i].algorithm = &algorithms[type];
         pthread_create(&threads[i], NULL, convolute, (void*)&thread_data[i]);
     }
 
