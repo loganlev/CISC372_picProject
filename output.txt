@@ -1,0 +1,9 @@
+Script started on Sat Oct 28 18:03:42 2023
+]0;loganlev@r1n13.darwin:~/CISC372_picProject[?1034h[loganlev@r1n13 CISC372_picProject]$ ./pthreads_image [ic   pic1.jpg edge
+Took 8 seconds
+]0;loganlev@r1n13.darwin:~/CISC372_picProject[loganlev@r1n13 CISC372_picProject]$ ./openmp_image pic1.jpg edge
+Took 8 seconds
+]0;loganlev@r1n13.darwin:~/CISC372_picProject[loganlev@r1n13 CISC372_picProject]$ exit
+exit
+
+Script done on Sat Oct 28 18:04:23 2023
