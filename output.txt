@@ -1,0 +1,9 @@
+Script started on Sat Oct 28 18:17:07 2023
+[loganlev@r1n13 CISC372_picProject]$ srun ./pthreads_image pic1.jpg edge
+Took 6 seconds
+[loganlev@r1n13 CISC372_picProject]$ srun ./openmp_image pic1.jpg edge
+Took 6 seconds
+[loganlev@r1n13 CISC372_picProject]$ exit
+exit
+
+Script done on Sat Oct 28 18:17:51 2023
