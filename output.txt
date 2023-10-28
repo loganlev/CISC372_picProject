@@ -1,5 +1,7 @@
 Script started on Sat Oct 28 18:17:07 2023
-]0;loganlev@r1n13.darwin:~/CISC372_picProject[?1034h[loganlev@r1n13 CISC372_picProject]$ exitsalloc --ntasks=1 --cpus-per-task=4 --partition=standard[loganlev@r1n13 CISC372_picProject]$ ls[Krm output.txtls[Kclearat output.txtls[Kgit push origin masterls[Kcat output.txtlear[K[3Plsrm output.txtls[Ksalloc --ntasks=1 --cpus-per-task=4 --partition=standard[loganlev@r1n13 CISC372_picProject]$ exit[K[Ksrun ./pthreads_image pic1.jpg edge
+]0;loganlev@r1n13.darwin:~/CISC372_picProject[?1034h[loganlev@r1n13 CISC372_picProject]$ exitsalloc --ntasks=1 --cpus-per-task=4 --partition=standard
+[loganlev@r1n13 CISC372_picProject]$ ls[Krm output.txtls[Kclearat output.txtls[Kgit push origin masterls[Kcat output.txtlear[K[3Plsrm output.txtls[Ksalloc --ntasks=1 --cpus-per-task=4 --partition=standard
+[loganlev@r1n13 CISC372_picProject]$ exit[K[Ksrun ./pthreads_image pic1.jpg edge
 Took 6 seconds
 ]0;loganlev@r1n13.darwin:~/CISC372_picProject[loganlev@r1n13 CISC372_picProject]$ srun ./openmp_image pic1.jpg edge
 Took 6 seconds
